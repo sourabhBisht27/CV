@@ -1,0 +1,108 @@
+body {
+    background-color: #39AEA9;
+    font-family: 'Homenaje', sans-serif;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar & List */
+li {
+    float: left; 
+    border-right: 1px solid grey;
+}
+.nav-item{
+    margin: 0px 10px 0px 10px;
+}
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    /* display: block; */
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1B1A17;
+}
+
+.nav,
+nav-item {
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    background-color: #203239;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+
+    /* Note: overflow:hidden is added to prevent li elements from going outside of the list. */
+}
+
+.nav-item {
+    display: inline;
+    padding: 25px 25px;
+    padding-left: 0px;
+}
+
+/* Sourabh | Home */
+.home {
+    text-align: center;
+    padding: 80px 25px;
+}
+
+/* Image & Description */
+.home-img {
+    float: left;
+    border: 2px solid #3A3845;
+    padding: 25px 25px;
+}
+
+.home-desc {
+    float: left;
+    border: 2px solid #251D3A;
+    background-color: #6EDCD9;
+    padding: 20px 25px;
+    margin: 30px;
+}
+
+/* About */
+.about-heading {
+    text-align: center;
+}
+
+.about-desc {
+    border: 2px solid #251D3A;
+    background-color: #6EDCD9;
+    padding: 20px 25px;
+    margin: 30px;
+}
+
+/* Contact */
+.contact-heading {
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.contact-logo {
+    border: 2px solid #251D3A;
+    background-color: #6EDCD9;
+    padding: 20px 25px 20px 120px;
+    margin: 30px;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+}
+
+.knowledge {
+    border: 2px solid #251D3A;
+    background-color: #6EDCD9;
+    padding: 20px 25px;
+    margin: 30px;
+}
